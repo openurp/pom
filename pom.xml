@@ -15,11 +15,11 @@
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.commons.version>4.1.4</beangle.commons.version>
-    <beangle.data.version>4.1.2</beangle.data.version>
-    <beangle.webmvc.version>0.1.3</beangle.webmvc.version>
-    <beangle.spring.version>4.0.5</beangle.spring.version>
-    <beangle.security.version>4.0.3</beangle.security.version>
+    <beangle.commons.version>4.1.5</beangle.commons.version>
+    <beangle.data.version>4.1.3</beangle.data.version>
+    <beangle.webmvc.version>0.2.0</beangle.webmvc.version>
+    <beangle.spring.version>4.0.6</beangle.spring.version>
+    <beangle.security.version>4.0.4</beangle.security.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
     <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
   </properties>
@@ -122,6 +122,36 @@
         <scope>provided</scope>
       </dependency>
       <dependency>
+        <groupId>org.beangle.security</groupId>
+        <artifactId>beangle-security-core</artifactId>
+        <version>${beangle.security.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.security</groupId>
+        <artifactId>beangle-security-web</artifactId>
+        <version>${beangle.security.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.security</groupId>
+        <artifactId>beangle-security-cas</artifactId>
+        <version>${beangle.security.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.security</groupId>
+        <artifactId>beangle-security-session</artifactId>
+        <version>${beangle.security.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.security</groupId>
+        <artifactId>beangle-security-blueprint</artifactId>
+        <version>${beangle.security.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-core</artifactId>
         <version>${hibernate.version}</version>
@@ -146,6 +176,16 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
       <scope>provided</scope>
     </dependency>
    </dependencies>
