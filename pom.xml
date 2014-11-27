@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.beangle</groupId>
     <artifactId>beangle-scala</artifactId>
-    <version>19</version>
+    <version>20</version>
   </parent>
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
@@ -16,8 +16,8 @@
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.commons.version>4.1.5</beangle.commons.version>
-    <beangle.data.version>4.1.3</beangle.data.version>
-    <beangle.webmvc.version>0.2.0</beangle.webmvc.version>
+    <beangle.data.version>4.1.4</beangle.data.version>
+    <beangle.webmvc.version>0.2.1</beangle.webmvc.version>
     <beangle.spring.version>4.0.6</beangle.spring.version>
     <beangle.security.version>4.0.4</beangle.security.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
