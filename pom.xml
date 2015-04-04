@@ -173,7 +173,7 @@
       <plugin>
         <groupId>org.beangle.maven</groupId>
         <artifactId>beangle-maven-plugin</artifactId>
-        <version>0.1.3</version>
+        <version>0.1.5-SNAPSHOT</version>
         <configuration>
           <dependencyIncludes>*:*</dependencyIncludes>
         </configuration>
