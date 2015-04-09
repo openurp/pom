@@ -15,11 +15,11 @@
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.commons.version>4.2.4-SNAPSHOT</beangle.commons.version>
-    <beangle.data.version>4.1.11-SNAPSHOT</beangle.data.version>
-    <beangle.webmvc.version>0.2.6</beangle.webmvc.version>
-    <beangle.spring.version>4.0.7</beangle.spring.version>
-    <beangle.security.version>4.0.6</beangle.security.version>
+    <beangle.commons.version>4.2.4</beangle.commons.version>
+    <beangle.data.version>4.2.1</beangle.data.version>
+    <beangle.spring.version>4.0.9</beangle.spring.version>
+    <beangle.webmvc.version>0.2.7-SNAPSHOT</beangle.webmvc.version>
+    <beangle.security.version>4.0.7-SNAPSHOT</beangle.security.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
     <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
   </properties>
@@ -65,6 +65,11 @@
         <groupId>org.beangle.data</groupId>
         <artifactId>beangle-data-jdbc</artifactId>
         <version>${beangle.data.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.webmvc</groupId>
+        <artifactId>beangle-webmvc-api</artifactId>
+        <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
