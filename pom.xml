@@ -18,8 +18,8 @@
     <beangle.commons.version>4.2.4</beangle.commons.version>
     <beangle.data.version>4.2.1</beangle.data.version>
     <beangle.spring.version>4.0.9</beangle.spring.version>
-    <beangle.webmvc.version>0.2.7-SNAPSHOT</beangle.webmvc.version>
-    <beangle.security.version>4.0.7-SNAPSHOT</beangle.security.version>
+    <beangle.webmvc.version>0.2.6</beangle.webmvc.version>
+    <beangle.security.version>4.0.6</beangle.security.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
     <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
   </properties>
