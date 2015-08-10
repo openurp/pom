@@ -4,24 +4,24 @@
   <parent>
     <groupId>org.beangle</groupId>
     <artifactId>beangle-scala</artifactId>
-    <version>22.2</version>
+    <version>22.3</version>
   </parent>
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.12</version>
+  <version>0.0.13.Alpha</version>
   <name>OpenURP Parent</name>
 
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.11.6</scala.version>
-    <beangle.commons.version>4.2.5</beangle.commons.version>
-    <beangle.data.version>4.2.2</beangle.data.version>
+    <beangle.commons.version>4.2.6</beangle.commons.version>
+    <beangle.data.version>4.2.3.RC1</beangle.data.version>
     <beangle.spring.version>4.0.10</beangle.spring.version>
     <beangle.webmvc.version>0.2.7</beangle.webmvc.version>
     <beangle.security.version>4.0.7</beangle.security.version>
-    <beangle.maven.version>0.1.6</beangle.maven.version>
+    <beangle.maven.version>0.1.7.RC1</beangle.maven.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
     <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
   </properties>
@@ -34,26 +34,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.scala-lang</groupId>
-        <artifactId>scala-library</artifactId>
-        <version>${scala.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.scala-lang</groupId>
-        <artifactId>scala-reflect</artifactId>
-        <version>${scala.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.scala-lang.modules</groupId>
-        <artifactId>scala-xml_2.11</artifactId>
-        <version>1.0.4</version>
-        <scope>runtime</scope>
-      </dependency>
-      <dependency>
         <groupId>org.beangle.commons</groupId>
-        <artifactId>beangle-commons-core</artifactId>
+        <artifactId>beangle-commons-core_2.11</artifactId>
         <version>${beangle.commons.version}</version>
       </dependency>
       <dependency>
@@ -68,22 +50,22 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-model</artifactId>
+        <artifactId>beangle-data-model_2.11</artifactId>
         <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-jpa</artifactId>
+        <artifactId>beangle-data-jpa_2.11</artifactId>
         <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-serializer</artifactId>
+        <artifactId>beangle-data-serializer_2.11</artifactId>
         <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-jdbc</artifactId>
+        <artifactId>beangle-data-jdbc_2.11</artifactId>
         <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
@@ -190,14 +172,6 @@
       <artifactId>logback-classic</artifactId>
       <scope>runtime</scope>
     </dependency>
-     <dependency>
-        <groupId>org.scala-lang</groupId>
-        <artifactId>scala-library</artifactId>
-      </dependency>
-      <dependency>
-        <groupId>org.scala-lang</groupId>
-        <artifactId>scala-reflect</artifactId>
-      </dependency>
       <dependency>
         <groupId>org.scala-lang.modules</groupId>
         <artifactId>scala-xml_2.11</artifactId>
@@ -218,7 +192,6 @@
             <id>generate</id>
             <phase>prepare-package</phase>
             <goals>
-              <goal>hbm2cfg</goal>
               <goal>gen-dependency</goal>
             </goals>
           </execution>
