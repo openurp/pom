@@ -9,19 +9,19 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.13.Alpha</version>
+  <version>0.0.13</version>
   <name>OpenURP Parent</name>
 
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.11.6</scala.version>
-    <beangle.commons.version>4.2.6</beangle.commons.version>
-    <beangle.data.version>4.2.3.RC1</beangle.data.version>
-    <beangle.spring.version>4.0.10</beangle.spring.version>
-    <beangle.webmvc.version>0.2.7</beangle.webmvc.version>
-    <beangle.security.version>4.0.7</beangle.security.version>
-    <beangle.maven.version>0.1.7.RC1</beangle.maven.version>
+    <beangle.commons.version>4.3.0</beangle.commons.version>
+    <beangle.data.version>4.2.3</beangle.data.version>
+    <beangle.spring.version>4.0.11</beangle.spring.version>
+    <beangle.webmvc.version>0.2.9</beangle.webmvc.version>
+    <beangle.security.version>4.0.8</beangle.security.version>
+    <beangle.maven.version>0.1.7</beangle.maven.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
     <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
   </properties>
@@ -40,12 +40,12 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.spring</groupId>
-        <artifactId>beangle-spring-context</artifactId>
+        <artifactId>beangle-spring-context_2.11</artifactId>
         <version>${beangle.spring.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.spring</groupId>
-        <artifactId>beangle-spring-hibernate</artifactId>
+        <artifactId>beangle-spring-hibernate_2.11</artifactId>
         <version>${beangle.spring.version}</version>
       </dependency>
       <dependency>
@@ -70,73 +70,57 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-api</artifactId>
+        <artifactId>beangle-webmvc-api_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-webxml-plugin</artifactId>
+        <artifactId>beangle-webmvc-webxml-plugin_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-config-plugin</artifactId>
-        <version>${beangle.webmvc.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-hibernate-plugin</artifactId>
+        <artifactId>beangle-webmvc-core_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-core</artifactId>
+        <artifactId>beangle-webmvc-entity-plugin_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-entity-plugin</artifactId>
+        <artifactId>beangle-webmvc-serializer-plugin_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-serializer-plugin</artifactId>
-        <version>${beangle.webmvc.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-bootstrap-ui</artifactId>
-        <version>${beangle.webmvc.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-tag</artifactId>
+        <artifactId>beangle-webmvc-view_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
-        <artifactId>beangle-security-core</artifactId>
+        <artifactId>beangle-security-core_2.11</artifactId>
         <version>${beangle.security.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
-        <artifactId>beangle-security-web</artifactId>
+        <artifactId>beangle-security-web_2.11</artifactId>
         <version>${beangle.security.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
-        <artifactId>beangle-security-cas</artifactId>
+        <artifactId>beangle-security-cas_2.11</artifactId>
         <version>${beangle.security.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
-        <artifactId>beangle-security-session</artifactId>
+        <artifactId>beangle-security-session_2.11</artifactId>
         <version>${beangle.security.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
-        <artifactId>beangle-security-blueprint</artifactId>
+        <artifactId>beangle-security-blueprint_2.11</artifactId>
         <version>${beangle.security.version}</version>
       </dependency>
       <dependency>
