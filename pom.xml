@@ -9,19 +9,19 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.14</version>
+  <version>0.0.15</version>
   <name>OpenURP Parent</name>
 
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.11.6</scala.version>
-    <beangle.commons.version>4.4.0</beangle.commons.version>
-    <beangle.data.version>4.2.4</beangle.data.version>
-    <beangle.spring.version>4.0.12</beangle.spring.version>
-    <beangle.webmvc.version>0.2.10</beangle.webmvc.version>
-    <beangle.security.version>4.0.9</beangle.security.version>
-    <beangle.maven.version>0.1.7</beangle.maven.version>
+    <beangle.commons.version>4.4.2</beangle.commons.version>
+    <beangle.data.version>4.3.1</beangle.data.version>
+    <beangle.cdi.version>0.0.1</beangle.cdi.version>
+    <beangle.webmvc.version>0.3.2</beangle.webmvc.version>
+    <beangle.security.version>4.0.10</beangle.security.version>
+    <beangle.maven.version>0.2.1</beangle.maven.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
     <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
   </properties>
@@ -39,14 +39,9 @@
         <version>${beangle.commons.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.beangle.spring</groupId>
-        <artifactId>beangle-spring-context_2.11</artifactId>
-        <version>${beangle.spring.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.beangle.spring</groupId>
-        <artifactId>beangle-spring-hibernate_2.11</artifactId>
-        <version>${beangle.spring.version}</version>
+        <groupId>org.beangle.cdi</groupId>
+        <artifactId>beangle-cdi-spring_2.11</artifactId>
+        <version>${beangle.cdi.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
@@ -55,7 +50,7 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-jpa_2.11</artifactId>
+        <artifactId>beangle-data-hibernate_2.11</artifactId>
         <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
@@ -75,7 +70,7 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-webxml-plugin_2.11</artifactId>
+        <artifactId>beangle-webmvc-spring-plugin_2.11</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
