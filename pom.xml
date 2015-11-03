@@ -12,30 +12,47 @@
   <version>0.0.16-SNAPSHOT</version>
   <name>OpenURP Parent</name>
 
+  <prerequisites>
+    <maven>3.2</maven>
+  </prerequisites>
+
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.11.6</scala.version>
-    <beangle.commons.version>4.4.2</beangle.commons.version>
-    <beangle.data.version>4.3.1</beangle.data.version>
-    <beangle.cdi.version>0.0.1</beangle.cdi.version>
-    <beangle.webmvc.version>0.3.2</beangle.webmvc.version>
-    <beangle.security.version>4.0.10</beangle.security.version>
-    <beangle.maven.version>0.2.1</beangle.maven.version>
-    <hibernate.version>4.3.1.Final</hibernate.version>
-    <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
+    <beangle.commons.version>4.4.4</beangle.commons.version>
+    <beangle.data.version>4.3.2</beangle.data.version>
+    <beangle.cdi.version>0.0.2</beangle.cdi.version>
+    <beangle.webmvc.version>0.3.3</beangle.webmvc.version>
+    <beangle.security.version>4.0.11</beangle.security.version>
+    <beangle.maven.version>0.2.2</beangle.maven.version>
   </properties>
-
-  <modules>
-    <module>ws</module>
-    <module>webapp</module>
-  </modules>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.beangle.commons</groupId>
         <artifactId>beangle-commons-core_2.11</artifactId>
+        <version>${beangle.commons.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.commons</groupId>
+        <artifactId>beangle-commons-web_2.11</artifactId>
+        <version>${beangle.commons.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.commons</groupId>
+        <artifactId>beangle-commons-csv_2.11</artifactId>
+        <version>${beangle.commons.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.commons</groupId>
+        <artifactId>beangle-commons-i18n_2.11</artifactId>
+        <version>${beangle.commons.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.commons</groupId>
+        <artifactId>beangle-commons-text_2.11</artifactId>
         <version>${beangle.commons.version}</version>
       </dependency>
       <dependency>
@@ -117,21 +134,6 @@
         <groupId>org.beangle.security</groupId>
         <artifactId>beangle-security-blueprint_2.11</artifactId>
         <version>${beangle.security.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-core</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-validator</artifactId>
-        <version>${hibernate.validator.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-ehcache</artifactId>
-        <version>${hibernate.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
