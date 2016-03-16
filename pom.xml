@@ -24,6 +24,7 @@
     <beangle.cdi.version>0.0.6</beangle.cdi.version>
     <beangle.data.version>4.3.4</beangle.data.version>
     <beangle.webmvc.version>0.3.6</beangle.webmvc.version>
+    <beangle.webui.version>0.0.6</beangle.webui.version>
     <beangle.security.version>4.0.14</beangle.security.version>
     <beangle.maven.version>0.2.4</beangle.maven.version>
     <beangle.cache.version>0.0.2</beangle.cache.version>
