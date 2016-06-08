@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.beangle</groupId>
     <artifactId>beangle-scala</artifactId>
-    <version>23.1</version>
+    <version>23.3</version>
   </parent>
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
@@ -19,16 +19,16 @@
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <scala.version>2.12.0-M3</scala.version>
-    <beangle.commons.version>4.4.8</beangle.commons.version>
-    <beangle.cdi.version>0.0.6</beangle.cdi.version>
-    <beangle.data.version>4.3.4</beangle.data.version>
-    <beangle.webmvc.version>0.3.6</beangle.webmvc.version>
-    <beangle.webui.version>0.0.6</beangle.webui.version>
-    <beangle.security.version>4.0.14</beangle.security.version>
-    <beangle.maven.version>0.2.4</beangle.maven.version>
-    <beangle.cache.version>0.0.2</beangle.cache.version>
-    <beangle.ids.version>0.0.2</beangle.ids.version>
+    <scala.version>2.12.0-M4</scala.version>
+    <beangle.commons.version>4.5.0</beangle.commons.version>
+    <beangle.cdi.version>0.0.7</beangle.cdi.version>
+    <beangle.data.version>4.4.0</beangle.data.version>
+    <beangle.webmvc.version>0.3.7</beangle.webmvc.version>
+    <beangle.webui.version>0.0.7</beangle.webui.version>
+    <beangle.security.version>4.0.15</beangle.security.version>
+    <beangle.maven.version>0.2.5</beangle.maven.version>
+    <beangle.cache.version>0.0.3</beangle.cache.version>
+    <beangle.ids.version>0.0.3</beangle.ids.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
   </properties>
 
