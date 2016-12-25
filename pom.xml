@@ -68,9 +68,9 @@
         <version>${beangle.commons.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-model_2.12</artifactId>
-        <version>${beangle.data.version}</version>
+        <groupId>org.beangle.commons</groupId>
+        <artifactId>beangle-commons-model_2.12</artifactId>
+        <version>${beangle.commons.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
