@@ -25,7 +25,7 @@
     <beangle.webmvc.version>0.3.10</beangle.webmvc.version>
     <beangle.webui.version>0.0.10</beangle.webui.version>
     <beangle.security.version>4.0.17</beangle.security.version>
-    <beangle.maven.version>0.2.7</beangle.maven.version>
+    <beangle.maven.version>0.2.8</beangle.maven.version>
     <beangle.ids.version>0.0.5</beangle.ids.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
 
