@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.1.8-SNAPSHOT</version>
+  <version>0.1.8</version>
   <name>OpenURP Parent</name>
 
   <prerequisites>
@@ -23,11 +23,12 @@
     <beangle.commons.version>5.0.0.M3</beangle.commons.version>
     <beangle.cdi.version>0.0.10</beangle.cdi.version>
     <beangle.cache.version>0.0.5</beangle.cache.version>
-    <beangle.data.version>5.0.0.M2</beangle.data.version>
+    <beangle.data.version>5.0.0.M3</beangle.data.version>
     <beangle.webmvc.version>0.3.11</beangle.webmvc.version>
     <beangle.webui.version>0.0.11</beangle.webui.version>
-    <beangle.security.version>4.0.19</beangle.security.version>
+    <beangle.security.version>4.0.20</beangle.security.version>
     <beangle.maven.version>0.3.1</beangle.maven.version>
+    <beangle.template.version>0.0.15</beangle.template.version>
     <beangle.ids.version>0.0.7</beangle.ids.version>
     <hibernate.version>4.3.1.Final</hibernate.version>
 
@@ -58,6 +59,16 @@
       <dependency>
         <groupId>org.beangle.cache</groupId>
         <artifactId>beangle-cache-api_2.12</artifactId>
+        <version>${beangle.cache.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.cache</groupId>
+        <artifactId>beangle-cache-ehcache_2.12</artifactId>
+        <version>${beangle.cache.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.cache</groupId>
+        <artifactId>beangle-cache-redis_2.12</artifactId>
         <version>${beangle.cache.version}</version>
       </dependency>
       <dependency>
