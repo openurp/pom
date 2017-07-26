@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.1.9-SNAPSHOT</version>
+  <version>0.2.0</version>
   <name>OpenURP Parent</name>
 
   <prerequisites>
@@ -20,22 +20,21 @@
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.12.2</scala.version>
-    <beangle.commons.version>5.0.0.M3</beangle.commons.version>
-    <beangle.cdi.version>0.0.10</beangle.cdi.version>
-    <beangle.cache.version>0.0.5</beangle.cache.version>
-    <beangle.data.version>5.0.0.M3</beangle.data.version>
-    <beangle.webmvc.version>0.3.11</beangle.webmvc.version>
-    <beangle.webui.version>0.0.11</beangle.webui.version>
-    <beangle.security.version>4.0.20</beangle.security.version>
-    <beangle.maven.version>0.3.1</beangle.maven.version>
-    <beangle.template.version>0.0.15</beangle.template.version>
-    <beangle.ids.version>0.0.7</beangle.ids.version>
-    <hibernate.version>4.3.1.Final</hibernate.version>
+    <beangle.cdi.version>0.0.11</beangle.cdi.version>
+    <beangle.commons.version>5.0.0.M4</beangle.commons.version>
+    <beangle.data.version>5.0.0.M4</beangle.data.version>
+    <beangle.cache.version>0.0.6</beangle.cache.version>
+    <beangle.webmvc.version>0.3.12</beangle.webmvc.version>
+    <beangle.webui.version>0.0.12</beangle.webui.version>
+    <beangle.security.version>4.0.21</beangle.security.version>
+    <beangle.maven.version>0.3.2</beangle.maven.version>
+    <beangle.template.version>0.0.16</beangle.template.version>
+    <beangle.ids.version>0.0.8</beangle.ids.version>
 
     <ehcache.version>3.3.1</ehcache.version>
     <jedis.version>2.9.0</jedis.version>
     <HikariCP.version>2.6.2</HikariCP.version>
-    <fst.version>2.50</fst.version>
+    <fst.version>2.51</fst.version>
     <hibernate.version>5.2.10.Final</hibernate.version>
   </properties>
 
@@ -204,7 +203,7 @@
             <id>generate</id>
             <phase>prepare-package</phase>
             <goals>
-              <goal>gen-dependency</goal>
+              <goal>sas</goal>
             </goals>
           </execution>
         </executions>
