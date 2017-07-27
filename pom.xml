@@ -30,11 +30,9 @@
     <beangle.maven.version>0.3.2</beangle.maven.version>
     <beangle.template.version>0.0.16</beangle.template.version>
     <beangle.ids.version>0.0.8</beangle.ids.version>
+    <beangle.serializer.version>0.0.1</beangle.serializer.version>
 
-    <ehcache.version>3.3.1</ehcache.version>
-    <jedis.version>2.9.0</jedis.version>
     <HikariCP.version>2.6.2</HikariCP.version>
-    <fst.version>2.51</fst.version>
     <hibernate.version>5.2.10.Final</hibernate.version>
   </properties>
 
@@ -74,6 +72,11 @@
         <groupId>org.beangle.commons</groupId>
         <artifactId>beangle-commons-text_2.12</artifactId>
         <version>${beangle.commons.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.serializer</groupId>
+        <artifactId>beangle-commons-fst_2.12</artifactId>
+        <version>${beangle.serializer.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.cdi</groupId>
