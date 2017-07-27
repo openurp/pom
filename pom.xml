@@ -75,7 +75,7 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.serializer</groupId>
-        <artifactId>beangle-commons-fst_2.12</artifactId>
+        <artifactId>beangle-serializer-fst_2.12</artifactId>
         <version>${beangle.serializer.version}</version>
       </dependency>
       <dependency>
