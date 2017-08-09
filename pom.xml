@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.beangle</groupId>
     <artifactId>beangle-scala</artifactId>
-    <version>24.1</version>
+    <version>24.2</version>
   </parent>
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
@@ -19,18 +19,18 @@
   <properties>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <scala.version>2.12.2</scala.version>
-    <beangle.cdi.version>0.0.11</beangle.cdi.version>
-    <beangle.commons.version>5.0.0.M4</beangle.commons.version>
-    <beangle.data.version>5.0.0.M4</beangle.data.version>
-    <beangle.cache.version>0.0.6</beangle.cache.version>
-    <beangle.webmvc.version>0.3.12</beangle.webmvc.version>
-    <beangle.webui.version>0.0.12</beangle.webui.version>
-    <beangle.security.version>4.0.21</beangle.security.version>
-    <beangle.maven.version>0.3.2</beangle.maven.version>
-    <beangle.template.version>0.0.16</beangle.template.version>
-    <beangle.ids.version>0.0.8</beangle.ids.version>
-    <beangle.serializer.version>0.0.1</beangle.serializer.version>
+    <scala.version>2.12.3</scala.version>
+    <beangle.cdi.version>0.0.12</beangle.cdi.version>
+    <beangle.commons.version>5.0.0.M5</beangle.commons.version>
+    <beangle.data.version>5.0.0.M5</beangle.data.version>
+    <beangle.cache.version>0.0.7</beangle.cache.version>
+    <beangle.webmvc.version>0.3.13</beangle.webmvc.version>
+    <beangle.webui.version>0.0.13</beangle.webui.version>
+    <beangle.security.version>4.1.0</beangle.security.version>
+    <beangle.maven.version>0.3.3</beangle.maven.version>
+    <beangle.template.version>0.0.17</beangle.template.version>
+    <beangle.ids.version>0.0.9</beangle.ids.version>
+    <beangle.serializer.version>0.0.2</beangle.serializer.version>
 
     <HikariCP.version>2.6.2</HikariCP.version>
     <hibernate.version>5.2.10.Final</hibernate.version>
