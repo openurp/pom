@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.1-SNAPSHOT</version>
+  <version>0.2.1</version>
   <name>OpenURP Parent</name>
 
   <prerequisites>
@@ -66,6 +66,11 @@
       <dependency>
         <groupId>org.beangle.cache</groupId>
         <artifactId>beangle-cache-redis_2.12</artifactId>
+        <version>${beangle.cache.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.cache</groupId>
+        <artifactId>beangle-cache-caffeine_2.12</artifactId>
         <version>${beangle.cache.version}</version>
       </dependency>
       <dependency>
