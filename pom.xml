@@ -20,17 +20,17 @@
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.12.3</scala.version>
-    <beangle.cdi.version>0.0.12</beangle.cdi.version>
-    <beangle.commons.version>5.0.0.M5</beangle.commons.version>
-    <beangle.data.version>5.0.0.M5</beangle.data.version>
-    <beangle.cache.version>0.0.7</beangle.cache.version>
-    <beangle.webmvc.version>0.3.13</beangle.webmvc.version>
-    <beangle.webui.version>0.0.13</beangle.webui.version>
-    <beangle.security.version>4.1.0</beangle.security.version>
-    <beangle.maven.version>0.3.3</beangle.maven.version>
-    <beangle.template.version>0.0.17</beangle.template.version>
-    <beangle.ids.version>0.0.9</beangle.ids.version>
-    <beangle.serializer.version>0.0.2</beangle.serializer.version>
+    <beangle.cdi.version>0.0.13</beangle.cdi.version>
+    <beangle.commons.version>5.0.0.M6</beangle.commons.version>
+    <beangle.data.version>5.0.0.M6</beangle.data.version>
+    <beangle.cache.version>0.0.8</beangle.cache.version>
+    <beangle.webmvc.version>0.3.14</beangle.webmvc.version>
+    <beangle.webui.version>0.0.14</beangle.webui.version>
+    <beangle.security.version>4.1.1</beangle.security.version>
+    <beangle.maven.version>0.3.5</beangle.maven.version>
+    <beangle.template.version>0.0.18</beangle.template.version>
+    <beangle.ids.version>0.0.10</beangle.ids.version>
+    <beangle.serializer.version>0.0.3</beangle.serializer.version>
 
     <HikariCP.version>2.6.2</HikariCP.version>
     <hibernate.version>5.2.10.Final</hibernate.version>
@@ -84,6 +84,26 @@
         <version>${beangle.serializer.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.beangle.serializer</groupId>
+        <artifactId>beangle-serializer-json_2.12</artifactId>
+        <version>${beangle.serializer.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.serializer</groupId>
+        <artifactId>beangle-serializer-xml_2.12</artifactId>
+        <version>${beangle.serializer.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.serializer</groupId>
+        <artifactId>beangle-serializer-csv_2.12</artifactId>
+        <version>${beangle.serializer.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.serializer</groupId>
+        <artifactId>beangle-serializer-protobuf_2.12</artifactId>
+        <version>${beangle.serializer.version}</version>
+      </dependency>
+      <dependency>
         <groupId>org.beangle.cdi</groupId>
         <artifactId>beangle-cdi-api_2.12</artifactId>
         <version>${beangle.cdi.version}</version>
@@ -106,11 +126,6 @@
       <dependency>
         <groupId>org.beangle.data</groupId>
         <artifactId>beangle-data-hibernate_2.12</artifactId>
-        <version>${beangle.data.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-stream_2.12</artifactId>
         <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
