@@ -193,6 +193,16 @@
         <artifactId>beangle-security-protobuf_2.12</artifactId>
         <version>${beangle.security.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.beangle.ids.cas</groupId>
+        <artifactId>beangle-ids-cas-core_2.12</artifactId>
+        <version>${beangle.ids.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.ids.cas</groupId>
+        <artifactId>beangle-ids-cas-web_2.12</artifactId>
+        <version>${beangle.ids.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
