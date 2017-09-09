@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.3</version>
+  <version>0.2.4</version>
   <name>OpenURP Parent</name>
 
   <prerequisites>
@@ -26,10 +26,10 @@
     <beangle.cache.version>0.0.10</beangle.cache.version>
     <beangle.webmvc.version>0.3.14</beangle.webmvc.version>
     <beangle.webui.version>0.0.14</beangle.webui.version>
-    <beangle.security.version>4.1.1</beangle.security.version>
+    <beangle.security.version>4.1.2</beangle.security.version>
     <beangle.maven.version>0.3.5</beangle.maven.version>
     <beangle.template.version>0.0.18</beangle.template.version>
-    <beangle.ids.version>0.0.11</beangle.ids.version>
+    <beangle.ids.version>0.0.12</beangle.ids.version>
     <beangle.serializer.version>0.0.3</beangle.serializer.version>
 
     <HikariCP.version>2.6.2</HikariCP.version>
@@ -160,13 +160,13 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-stream-plugin_2.12</artifactId>
+        <artifactId>beangle-webmvc-view_2.12</artifactId>
         <version>${beangle.webmvc.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.beangle.webmvc</groupId>
-        <artifactId>beangle-webmvc-view_2.12</artifactId>
-        <version>${beangle.webmvc.version}</version>
+        <groupId>org.beangle.webui</groupId>
+        <artifactId>beangle-webui-bootstrap_2.12</artifactId>
+        <version>${beangle.webui.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
@@ -202,6 +202,11 @@
         <groupId>org.beangle.ids.cas</groupId>
         <artifactId>beangle-ids-cas-web_2.12</artifactId>
         <version>${beangle.ids.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zaxxer</groupId>
+        <artifactId>HikariCP</artifactId>
+        <version>${HikariCP.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
