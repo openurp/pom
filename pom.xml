@@ -22,7 +22,7 @@
     <scala.version>2.12.4</scala.version>
     <beangle.cdi.version>0.0.14</beangle.cdi.version>
     <beangle.commons.version>5.0.0</beangle.commons.version>
-    <beangle.data.version>5.0.0</beangle.data.version>
+    <beangle.data.version>5.0.1</beangle.data.version>
     <beangle.webmvc.version>0.3.15</beangle.webmvc.version>
     <beangle.maven.version>0.3.8</beangle.maven.version>
     <beangle.template.version>0.0.19</beangle.template.version>
