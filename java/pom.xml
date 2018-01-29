@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.beangle</groupId>
+    <artifactId>beangle-java</artifactId>
+    <version>24.5</version>
+  </parent>
+  <groupId>org.openurp</groupId>
+  <artifactId>openurp-java-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>0.2.6-SNAPSHOT</version>
+  <name>OpenURP Java Parent</name>
+
+  <prerequisites>
+    <maven>3.3</maven>
+  </prerequisites>
+
+  <properties>
+    <bundle.symbolicName>org.openurp.parent4j</bundle.symbolicName>
+    <bundle.namespace>org.openurp</bundle.namespace>
+    <beangle.maven.version>0.3.8</beangle.maven.version>
+    <HikariCP.version>2.7.4</HikariCP.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.zaxxer</groupId>
+        <artifactId>HikariCP</artifactId>
+        <version>${HikariCP.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.beangle.maven</groupId>
+        <artifactId>beangle-maven-plugin</artifactId>
+        <version>${beangle.maven.version}</version>
+        <configuration>
+          <dependencyIncludes>*:*</dependencyIncludes>
+        </configuration>
+        <executions>
+          <execution>
+            <id>generate</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>sas</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <packagingExcludes>
+          %regex[WEB-INF/lib/.*[^T].jar]
+          </packagingExcludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
