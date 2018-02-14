@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.6-SNAPSHOT</version>
+  <version>0.2.6</version>
   <name>OpenURP Java Parent</name>
 
   <prerequisites>
@@ -22,7 +22,7 @@
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.maven.version>0.3.8</beangle.maven.version>
     <HikariCP.version>2.7.4</HikariCP.version>
-    <beangle.version>3.6.0.M2</beangle.version>
+    <beangle3.version>3.6.0.M2</beangle3.version>
     <servletapi.version>3.1.0</servletapi.version>
   </properties>
 
@@ -36,32 +36,32 @@
       <dependency>
         <groupId>org.beangle.commons</groupId>
         <artifactId>beangle-commons-model</artifactId>
-        <version>${beangle.version}</version>
+        <version>${beangle3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.ioc</groupId>
         <artifactId>beangle-ioc-spring</artifactId>
-        <version>${beangle.version}</version>
+        <version>${beangle3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.commons</groupId>
         <artifactId>beangle-commons-core</artifactId>
-        <version>${beangle.version}</version>
+        <version>${beangle3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.security</groupId>
         <artifactId>beangle-security-core</artifactId>
-        <version>${beangle.version}</version>
+        <version>${beangle3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.ems</groupId>
         <artifactId>beangle-ems-core</artifactId>
-        <version>${beangle.version}</version>
+        <version>${beangle3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.orm</groupId>
         <artifactId>beangle-orm-hibernate</artifactId>
-        <version>${beangle.version}</version>
+        <version>${beangle3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.openurp.code</groupId>
