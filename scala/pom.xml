@@ -22,6 +22,7 @@
   </prerequisites>
 
   <properties>
+    <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.12.4</scala.version>
