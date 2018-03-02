@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.7</version>
+  <version>0.2.8</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -17,17 +17,13 @@
     <url>https://github.com/openurp</url>
   </organization>
 
-  <prerequisites>
-    <maven>3.3</maven>
-  </prerequisites>
-
   <properties>
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent4j</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.maven.version>0.3.8</beangle.maven.version>
     <HikariCP.version>2.7.4</HikariCP.version>
-    <beangle3.version>3.6.0.M3</beangle3.version>
+    <beangle3.version>3.6.0.M4</beangle3.version>
     <servletapi.version>3.1.0</servletapi.version>
   </properties>
 

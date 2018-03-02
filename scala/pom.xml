@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.7</version>
+  <version>0.2.8</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -17,11 +17,8 @@
     <url>https://github.com/openurp</url>
   </organization>
 
-  <prerequisites>
-    <maven>3.3</maven>
-  </prerequisites>
-
   <properties>
+    <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.12.4</scala.version>
