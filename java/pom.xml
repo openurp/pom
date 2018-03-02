@@ -9,17 +9,13 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.8-SNAPSHOT</version>
+  <version>0.2.8</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
     <name>The OpenURP Software</name>
     <url>https://github.com/openurp</url>
   </organization>
-
-  <prerequisites>
-    <maven>3.3</maven>
-  </prerequisites>
 
   <properties>
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
