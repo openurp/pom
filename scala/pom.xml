@@ -28,7 +28,7 @@
     <beangle.webmvc.version>0.3.16</beangle.webmvc.version>
     <beangle.template.version>0.0.20</beangle.template.version>
     <beangle.webui.version>0.0.16</beangle.webui.version>
-    <beangle.security.version>4.1.4</beangle.security.version>
+    <beangle.security.version>4.2.0</beangle.security.version>
     <beangle.cache.version>0.0.12</beangle.cache.version>
     <beangle.serializer.version>0.0.5</beangle.serializer.version>
     <beangle.ids.version>0.0.14</beangle.ids.version>
