@@ -31,7 +31,7 @@
     <beangle.security.version>4.2.0</beangle.security.version>
     <beangle.cache.version>0.0.12</beangle.cache.version>
     <beangle.serializer.version>0.0.5</beangle.serializer.version>
-    <beangle.ids.version>0.0.14</beangle.ids.version>
+    <beangle.ids.version>0.0.15</beangle.ids.version>
     <beangle.maven.version>0.3.10</beangle.maven.version>
 
     <HikariCP.version>2.7.8</HikariCP.version>
