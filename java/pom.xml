@@ -23,7 +23,7 @@
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.maven.version>0.3.10</beangle.maven.version>
     <HikariCP.version>2.7.8</HikariCP.version>
-    <beangle3.version>3.6.0.M5</beangle3.version>
+    <beangle3.version>3.6.0.M6-SNAPSHOT</beangle3.version>
     <servletapi.version>3.1.0</servletapi.version>
   </properties>
 
