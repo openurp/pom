@@ -65,61 +65,6 @@
         <version>${beangle3.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-api4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-asset4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-edu4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-hr4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-job4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-geo4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-person4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-sin4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.edu</groupId>
-        <artifactId>openurp-edu-base4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.base</groupId>
-        <artifactId>openurp-base-api4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.people</groupId>
-        <artifactId>openurp-people-base4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
         <groupId>com.zaxxer</groupId>
         <artifactId>HikariCP</artifactId>
         <version>${HikariCP.version}</version>
