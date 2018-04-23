@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.11</version>
+  <version>0.2.12</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -22,19 +22,19 @@
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.12.4</scala.version>
-    <beangle.commons.version>5.1.0.M2</beangle.commons.version>
+    <beangle.commons.version>5.1.0.M3</beangle.commons.version>
     <beangle.cdi.version>0.0.15</beangle.cdi.version>
-    <beangle.data.version>5.0.2</beangle.data.version>
-    <beangle.webmvc.version>0.3.16</beangle.webmvc.version>
+    <beangle.data.version>5.0.3</beangle.data.version>
+    <beangle.webmvc.version>0.3.17</beangle.webmvc.version>
     <beangle.template.version>0.0.20</beangle.template.version>
-    <beangle.webui.version>0.0.16</beangle.webui.version>
-    <beangle.security.version>4.2.1</beangle.security.version>
+    <beangle.webui.version>0.0.17</beangle.webui.version>
+    <beangle.security.version>4.2.2</beangle.security.version>
     <beangle.cache.version>0.0.12</beangle.cache.version>
-    <beangle.serializer.version>0.0.5</beangle.serializer.version>
-    <beangle.ids.version>0.0.17</beangle.ids.version>
-    <beangle.maven.version>0.3.10</beangle.maven.version>
+    <beangle.serializer.version>0.0.6</beangle.serializer.version>
+    <beangle.ids.version>0.0.18</beangle.ids.version>
+    <beangle.maven.version>0.3.11</beangle.maven.version>
 
-    <HikariCP.version>2.7.8</HikariCP.version>
+    <HikariCP.version>3.0.0</HikariCP.version>
     <hibernate.version>5.2.12.Final</hibernate.version>
   </properties>
 
@@ -223,11 +223,7 @@
       <artifactId>logback-classic</artifactId>
       <scope>runtime</scope>
     </dependency>
-      <dependency>
-        <groupId>org.scala-lang.modules</groupId>
-        <artifactId>scala-xml_2.12</artifactId>
-      </dependency>
-   </dependencies>
+  </dependencies>
 
   <build>
     <plugins>

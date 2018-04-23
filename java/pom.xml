@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.11</version>
+  <version>0.2.12</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -21,9 +21,9 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent4j</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.maven.version>0.3.10</beangle.maven.version>
-    <HikariCP.version>2.7.8</HikariCP.version>
-    <beangle3.version>3.6.0.M6</beangle3.version>
+    <beangle.maven.version>0.3.11</beangle.maven.version>
+    <HikariCP.version>3.0.0</HikariCP.version>
+    <beangle3.version>3.6.0.M7</beangle3.version>
     <servletapi.version>3.1.0</servletapi.version>
   </properties>
 
@@ -63,61 +63,6 @@
         <groupId>org.beangle.orm</groupId>
         <artifactId>beangle-orm-hibernate</artifactId>
         <version>${beangle3.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-api4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-asset4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-edu4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-hr4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-job4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-geo4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-person4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.code</groupId>
-        <artifactId>openurp-code-sin4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.edu</groupId>
-        <artifactId>openurp-edu-base4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.base</groupId>
-        <artifactId>openurp-base-api4j</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.openurp.people</groupId>
-        <artifactId>openurp-people-base4j</artifactId>
-        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>com.zaxxer</groupId>
@@ -223,3 +168,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.]]>
     </plugins>
   </build>
 </project>
+
