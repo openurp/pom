@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.13</version>
+  <version>0.2.14</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -111,7 +111,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.2</version>
+        <version>${mvn.war.version}</version>
         <configuration>
           <packagingExcludes>
           %regex[WEB-INF/lib/.*[^T].jar]
