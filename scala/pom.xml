@@ -22,7 +22,7 @@
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
     <scala.version>2.12.6</scala.version>
-    <beangle.commons.version>5.1.0</beangle.commons.version>
+    <beangle.commons.version>5.1.1</beangle.commons.version>
     <beangle.cdi.version>0.0.16</beangle.cdi.version>
     <beangle.data.version>5.0.7</beangle.data.version>
     <beangle.webmvc.version>0.3.20</beangle.webmvc.version>
