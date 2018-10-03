@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.beangle</groupId>
     <artifactId>beangle-java</artifactId>
-    <version>24.10</version>
+    <version>25.0</version>
   </parent>
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.20-SNAPSHOT</version>
+  <version>0.2.20</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -21,10 +21,9 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent4j</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.maven.version>0.3.12</beangle.maven.version>
+    <beangle.maven.version>0.3.14</beangle.maven.version>
     <HikariCP.version>3.2.0</HikariCP.version>
-    <beangle3.version>3.6.0.M9</beangle3.version>
-    <servletapi.version>3.1.0</servletapi.version>
+    <beangle3.version>3.6.0</beangle3.version>
   </properties>
 
   <dependencyManagement>
