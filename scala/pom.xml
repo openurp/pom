@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.beangle</groupId>
     <artifactId>beangle-scala</artifactId>
-    <version>25.0</version>
+    <version>25.1</version>
   </parent>
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.22</version>
+  <version>0.2.23</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -225,35 +225,97 @@
     </dependency>
   </dependencies>
 
+
   <build>
     <plugins>
       <plugin>
-        <groupId>org.beangle.maven</groupId>
-        <artifactId>beangle-maven-plugin</artifactId>
-        <version>${beangle.maven.version}</version>
+        <groupId>com.mycila</groupId>
+        <artifactId>license-maven-plugin</artifactId>
+        <version>${mvn.license.version}</version>
         <configuration>
-          <dependencyIncludes>*:*</dependencyIncludes>
+          <strictCheck>true</strictCheck>
+          <inlineHeader><![CDATA[
+${organization.slogan}
+
+Copyright (c) ${project.inceptionYear}, ${project.organization.name}.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful.
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.]]>
+          </inlineHeader>
+          <includes>
+            <include>src/main/java/**</include>
+            <include>src/main/scala/**</include>
+            <include>src/test/java/**</include>
+            <include>src/test/scala/**</include>
+          </includes>
+          <excludes>
+            <exclude>src/**/package-info.java</exclude>
+          </excludes>
+          <mapping>
+            <java>SLASHSTAR_STYLE</java>
+            <scala>SLASHSTAR_STYLE</scala>
+          </mapping>
         </configuration>
         <executions>
           <execution>
-            <id>generate</id>
-            <phase>prepare-package</phase>
             <goals>
-              <goal>sas</goal>
+              <goal>check</goal>
             </goals>
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.2</version>
-        <configuration>
-          <packagingExcludes>
-          %regex[WEB-INF/lib/.*[^T].jar]
-          </packagingExcludes>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>skinny-war</id>
+      <activation>
+        <property>
+          <name>!skinny</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.beangle.maven</groupId>
+            <artifactId>beangle-maven-plugin</artifactId>
+            <version>${beangle.maven.version}</version>
+            <configuration>
+              <dependencyIncludes>*:*</dependencyIncludes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>generate</id>
+                <phase>prepare-package</phase>
+                <goals>
+                  <goal>sas</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.2.2</version>
+            <configuration>
+              <packagingExcludes>
+                %regex[WEB-INF/lib/.*[^T].jar]
+              </packagingExcludes>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
