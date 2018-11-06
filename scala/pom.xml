@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.23</version>
+  <version>0.2.24</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -28,7 +28,7 @@
     <beangle.webmvc.version>0.3.23</beangle.webmvc.version>
     <beangle.webui.version>0.3.23</beangle.webui.version>
     <beangle.template.version>0.0.22</beangle.template.version>
-    <beangle.security.version>4.2.5</beangle.security.version>
+    <beangle.security.version>4.2.6</beangle.security.version>
     <beangle.cache.version>0.0.14</beangle.cache.version>
     <beangle.serializer.version>0.0.8</beangle.serializer.version>
     <beangle.ids.version>0.0.20</beangle.ids.version>
@@ -237,7 +237,7 @@
           <inlineHeader><![CDATA[
 ${organization.slogan}
 
-Copyright (c) ${project.inceptionYear}, ${project.organization.name}.
+Copyright © ${project.inceptionYear}, ${project.organization.name}.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.23</version>
+  <version>0.2.24</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -99,7 +99,7 @@
           <inlineHeader><![CDATA[
 ${organization.slogan}
 
-Copyright (c) ${project.inceptionYear}, ${project.organization.name}.
+Copyright © ${project.inceptionYear}, ${project.organization.name}.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
