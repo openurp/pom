@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.25</version>
+  <version>0.2.26-SNAPSHOT</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -24,7 +24,7 @@
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.maven.version>0.3.15</beangle.maven.version>
     <HikariCP.version>3.2.0</HikariCP.version>
-    <beangle3.version>3.6.1</beangle3.version>
+    <beangle3.version>3.6.2</beangle3.version>
   </properties>
 
   <dependencyManagement>
