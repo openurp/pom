@@ -22,7 +22,6 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <scala.version>2.12.7</scala.version>
     <beangle.commons.version>5.1.5</beangle.commons.version>
     <beangle.cdi.version>0.0.17</beangle.cdi.version>
     <beangle.data.version>5.1.3</beangle.data.version>
