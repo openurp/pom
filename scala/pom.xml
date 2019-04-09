@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.28</version>
+  <version>0.2.29</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -22,20 +22,19 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <scala.version>2.12.7</scala.version>
-    <beangle.commons.version>5.1.5</beangle.commons.version>
-    <beangle.cdi.version>0.0.17</beangle.cdi.version>
-    <beangle.data.version>5.1.3</beangle.data.version>
-    <beangle.webmvc.version>0.3.25</beangle.webmvc.version>
-    <beangle.webui.version>0.3.26</beangle.webui.version>
-    <beangle.template.version>0.0.22</beangle.template.version>
-    <beangle.security.version>4.2.6</beangle.security.version>
-    <beangle.cache.version>0.0.14</beangle.cache.version>
-    <beangle.serializer.version>0.0.9</beangle.serializer.version>
-    <beangle.ids.version>0.0.20</beangle.ids.version>
-    <beangle.maven.version>0.3.15</beangle.maven.version>
+    <beangle.commons.version>5.1.6</beangle.commons.version>
+    <beangle.cdi.version>0.0.18</beangle.cdi.version>
+    <beangle.data.version>5.1.4</beangle.data.version>
+    <beangle.webmvc.version>0.3.26</beangle.webmvc.version>
+    <beangle.webui.version>0.3.27</beangle.webui.version>
+    <beangle.template.version>0.0.23</beangle.template.version>
+    <beangle.security.version>4.2.7</beangle.security.version>
+    <beangle.cache.version>0.0.15</beangle.cache.version>
+    <beangle.serializer.version>0.0.10</beangle.serializer.version>
+    <beangle.ids.version>0.1.0</beangle.ids.version>
+    <beangle.maven.version>0.3.16</beangle.maven.version>
 
-    <HikariCP.version>3.2.0</HikariCP.version>
+    <HikariCP.version>3.3.1</HikariCP.version>
     <hibernate.version>5.2.12.Final</hibernate.version>
   </properties>
 
@@ -183,12 +182,7 @@
       </dependency>
       <dependency>
         <groupId>org.beangle.ids.cas</groupId>
-        <artifactId>beangle-ids-cas-core_2.12</artifactId>
-        <version>${beangle.ids.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.beangle.ids.cas</groupId>
-        <artifactId>beangle-ids-cas-web_2.12</artifactId>
+        <artifactId>beangle-ids-cas_2.12</artifactId>
         <version>${beangle.ids.version}</version>
       </dependency>
       <dependency>
