@@ -106,14 +106,19 @@
         <version>${beangle.cdi.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-model_2.12</artifactId>
-        <version>${beangle.data.version}</version>
-      </dependency>
-      <dependency>
         <groupId>org.beangle.template</groupId>
         <artifactId>beangle-template-freemarker_2.12</artifactId>
         <version>${beangle.template.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.data</groupId>
+        <artifactId>beangle-data-transfer_2.12</artifactId>
+        <version>${beangle.data.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.data</groupId>
+        <artifactId>beangle-data-model_2.12</artifactId>
+        <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
