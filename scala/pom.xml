@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.31</version>
+  <version>0.2.32</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -24,8 +24,8 @@
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.commons.version>5.1.7</beangle.commons.version>
     <beangle.cdi.version>0.0.18</beangle.cdi.version>
-    <beangle.data.version>5.1.5</beangle.data.version>
-    <beangle.webmvc.version>0.3.26</beangle.webmvc.version>
+    <beangle.data.version>5.1.6</beangle.data.version>
+    <beangle.webmvc.version>0.3.27</beangle.webmvc.version>
     <beangle.webui.version>0.3.27</beangle.webui.version>
     <beangle.template.version>0.0.23</beangle.template.version>
     <beangle.security.version>4.2.7</beangle.security.version>
@@ -106,14 +106,19 @@
         <version>${beangle.cdi.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.beangle.data</groupId>
-        <artifactId>beangle-data-model_2.12</artifactId>
-        <version>${beangle.data.version}</version>
-      </dependency>
-      <dependency>
         <groupId>org.beangle.template</groupId>
         <artifactId>beangle-template-freemarker_2.12</artifactId>
         <version>${beangle.template.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.data</groupId>
+        <artifactId>beangle-data-transfer_2.12</artifactId>
+        <version>${beangle.data.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.data</groupId>
+        <artifactId>beangle-data-model_2.12</artifactId>
+        <version>${beangle.data.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.data</groupId>
