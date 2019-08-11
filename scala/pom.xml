@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.3.2</version>
+  <version>0.3.3</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -190,6 +190,16 @@
         <groupId>org.beangle.ids.cas</groupId>
         <artifactId>beangle-ids-cas_2.13</artifactId>
         <version>${beangle.ids.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-jcache</artifactId>
+        <version>${hibernate.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ehcache</groupId>
+        <artifactId>ehcache</artifactId>
+        <version>${ehcache.version}</version>
       </dependency>
       <dependency>
         <groupId>com.zaxxer</groupId>
