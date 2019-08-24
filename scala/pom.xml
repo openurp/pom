@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.3.3</version>
+  <version>0.3.4</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -22,13 +22,13 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.commons.version>5.1.8</beangle.commons.version>
+    <beangle.commons.version>5.1.9</beangle.commons.version>
     <beangle.cdi.version>0.1.1</beangle.cdi.version>
-    <beangle.data.version>5.1.8</beangle.data.version>
-    <beangle.webmvc.version>0.3.30</beangle.webmvc.version>
+    <beangle.data.version>5.1.9</beangle.data.version>
+    <beangle.webmvc.version>0.3.31</beangle.webmvc.version>
     <beangle.webui.version>0.3.30</beangle.webui.version>
     <beangle.template.version>0.0.24</beangle.template.version>
-    <beangle.security.version>4.2.8</beangle.security.version>
+    <beangle.security.version>4.2.9</beangle.security.version>
     <beangle.cache.version>0.0.16</beangle.cache.version>
     <beangle.serializer.version>0.0.11</beangle.serializer.version>
     <beangle.ids.version>0.2.2</beangle.ids.version>
@@ -160,6 +160,11 @@
         <groupId>org.beangle.webmvc</groupId>
         <artifactId>beangle-webmvc-view_2.13</artifactId>
         <version>${beangle.webmvc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.beangle.webui</groupId>
+        <artifactId>beangle-webui-tag_2.13</artifactId>
+        <version>${beangle.webui.version}</version>
       </dependency>
       <dependency>
         <groupId>org.beangle.webui</groupId>
