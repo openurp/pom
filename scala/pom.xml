@@ -28,10 +28,10 @@
     <beangle.webmvc.version>0.3.31</beangle.webmvc.version>
     <beangle.webui.version>0.3.31</beangle.webui.version>
     <beangle.template.version>0.0.24</beangle.template.version>
-    <beangle.security.version>4.2.10</beangle.security.version>
+    <beangle.security.version>4.2.11-SNAPSHOT</beangle.security.version>
     <beangle.cache.version>0.0.17</beangle.cache.version>
     <beangle.serializer.version>0.0.12</beangle.serializer.version>
-    <beangle.ids.version>0.2.3</beangle.ids.version>
+    <beangle.ids.version>0.2.4-SNAPSHOT</beangle.ids.version>
     <beangle.maven.version>0.3.19</beangle.maven.version>
 
     <HikariCP.version>3.3.1</HikariCP.version>
