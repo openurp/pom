@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.3.7</version>
+  <version>0.3.8</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -22,22 +22,22 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.commons.version>5.1.9</beangle.commons.version>
-    <beangle.cdi.version>0.1.1</beangle.cdi.version>
-    <beangle.data.version>5.1.11</beangle.data.version>
+    <beangle.commons.version>5.1.10</beangle.commons.version>
+    <beangle.cdi.version>0.2.0</beangle.cdi.version>
+    <beangle.data.version>5.1.12</beangle.data.version>
     <beangle.webmvc.version>0.3.31</beangle.webmvc.version>
     <beangle.webui.version>0.3.31</beangle.webui.version>
     <beangle.template.version>0.0.24</beangle.template.version>
-    <beangle.security.version>4.2.9</beangle.security.version>
-    <beangle.cache.version>0.0.16</beangle.cache.version>
-    <beangle.serializer.version>0.0.11</beangle.serializer.version>
-    <beangle.ids.version>0.2.2</beangle.ids.version>
+    <beangle.security.version>4.2.10</beangle.security.version>
+    <beangle.cache.version>0.0.17</beangle.cache.version>
+    <beangle.serializer.version>0.0.12</beangle.serializer.version>
+    <beangle.ids.version>0.2.3</beangle.ids.version>
     <beangle.maven.version>0.3.19</beangle.maven.version>
 
     <HikariCP.version>3.3.1</HikariCP.version>
     <hibernate.version>5.4.4.Final</hibernate.version>
-    <ehcache.version>3.8.0</ehcache.version>
-    <spring.version>5.1.9.RELEASE</spring.version>
+    <ehcache.version>3.8.1</ehcache.version>
+    <spring.version>5.2.0.RELEASE</spring.version>
   </properties>
 
   <dependencyManagement>
