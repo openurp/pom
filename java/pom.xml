@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.3.16</version>
+  <version>0.3.17</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
@@ -81,12 +81,24 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>edu.washington.cs.types.checker</groupId>
+          <artifactId>checker-framework</artifactId>
+        </exclusion>
+      </exclusions>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>edu.washington.cs.types.checker</groupId>
+          <artifactId>checker-framework</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 
