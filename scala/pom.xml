@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.3.17</version>
+  <version>0.3.18</version>
   <name>OpenURP Parent</name>
 
   <organization>
@@ -24,8 +24,8 @@
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.commons.version>5.1.11</beangle.commons.version>
     <beangle.cdi.version>0.2.1</beangle.cdi.version>
-    <beangle.data.version>5.3.3</beangle.data.version>
-    <beangle.webmvc.version>0.3.35</beangle.webmvc.version>
+    <beangle.data.version>5.3.4</beangle.data.version>
+    <beangle.webmvc.version>0.3.36</beangle.webmvc.version>
     <beangle.webui.version>0.3.37</beangle.webui.version>
     <beangle.template.version>0.0.26</beangle.template.version>
     <beangle.security.version>4.2.16</beangle.security.version>
