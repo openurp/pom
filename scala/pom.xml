@@ -33,7 +33,7 @@
     <beangle.serializer.version>0.0.14</beangle.serializer.version>
     <beangle.ids.version>0.2.10</beangle.ids.version>
     <beangle.ems.version>4.1.2</beangle.ems.version>
-    <beangle.maven.version>0.3.25</beangle.maven.version>
+    <beangle.maven.version>0.3.26</beangle.maven.version>
 
     <HikariCP.version>3.4.5</HikariCP.version>
     <hibernate.version>5.4.17.Final</hibernate.version>
