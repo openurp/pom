@@ -9,7 +9,7 @@
   <groupId>org.openurp</groupId>
   <artifactId>openurp-java-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.4.4</version>
+  <version>0.4.5-SNAPSHOT</version>
   <name>OpenURP Java Parent</name>
 
   <organization>
