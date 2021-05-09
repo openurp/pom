@@ -22,17 +22,17 @@
     <organization.slogan>OpenURP, Agile University Resource Planning Solution.</organization.slogan>
     <bundle.symbolicName>org.openurp.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp</bundle.namespace>
-    <beangle.commons.version>5.2.2</beangle.commons.version>
-    <beangle.cdi.version>0.2.6</beangle.cdi.version>
-    <beangle.data.version>5.3.21</beangle.data.version>
-    <beangle.template.version>0.0.30</beangle.template.version>
-    <beangle.serializer.version>0.0.18</beangle.serializer.version>
+    <beangle.commons.version>5.2.3</beangle.commons.version>
+    <beangle.cdi.version>0.3.0</beangle.cdi.version>
+    <beangle.data.version>5.3.22</beangle.data.version>
+    <beangle.template.version>0.0.31</beangle.template.version>
+    <beangle.serializer.version>0.0.19</beangle.serializer.version>
     <beangle.cache.version>0.0.22</beangle.cache.version>
-    <beangle.security.version>4.2.26</beangle.security.version>
-    <beangle.webmvc.version>0.4.0</beangle.webmvc.version>
-    <beangle.webui.version>0.3.49</beangle.webui.version>
-    <beangle.ids.version>0.2.18</beangle.ids.version>
-    <beangle.ems.version>4.1.16</beangle.ems.version>
+    <beangle.security.version>4.2.27</beangle.security.version>
+    <beangle.webmvc.version>0.4.3</beangle.webmvc.version>
+    <beangle.webui.version>0.3.50</beangle.webui.version>
+    <beangle.ids.version>0.2.19</beangle.ids.version>
+    <beangle.ems.version>4.1.17</beangle.ems.version>
     <beangle.maven.version>0.3.30</beangle.maven.version>
 
     <HikariCP.version>4.0.3</HikariCP.version>
