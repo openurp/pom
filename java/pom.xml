@@ -24,7 +24,7 @@
     <bundle.namespace>org.openurp</bundle.namespace>
     <beangle.maven.version>0.3.30</beangle.maven.version>
     <HikariCP.version>3.4.5</HikariCP.version>
-    <beangle3.version>3.8.3</beangle3.version>
+    <beangle3.version>3.8.4</beangle3.version>
     <dwr.version>3.0.4-RELEASE</dwr.version>
     <spring.version>4.3.25.RELEASE</spring.version>
   </properties>
