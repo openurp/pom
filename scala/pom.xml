@@ -32,7 +32,7 @@
     <beangle.webmvc.version>0.4.3</beangle.webmvc.version>
     <beangle.webui.version>0.3.50</beangle.webui.version>
     <beangle.ids.version>0.2.19</beangle.ids.version>
-    <beangle.ems.version>4.1.17</beangle.ems.version>
+    <beangle.ems.version>4.1.18</beangle.ems.version>
     <beangle.maven.version>0.3.30</beangle.maven.version>
 
     <HikariCP.version>4.0.3</HikariCP.version>
